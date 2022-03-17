@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class BooksApiController {
+public class BooksAPI {
     private final BookService bookService;
 
-    public BooksApiController(BookService bookService) {
+    public BooksAPI(BookService bookService) {
         this.bookService = bookService;
     }
 
